@@ -1,0 +1,77 @@
+ul.main_nav li.css_nav_item:hover, ul.main_nav li.js_nav_item:hover, body, #navbar, #nb20, .sub_nav, .vital, .redesign .article.highlighted, .minPosterWithPlotSummaryHeight, #sidebar, div#content-2-wide, .even, .odd, #main_bottom, #footer, table.cast_list td.character div, .imdbRatingStyle1, .recently-viewed .item, .heroic-overview .titleReviewBar .subText, .news_item small {
+    background: #212121 !important;
+    color: #999 !important;
+}
+ul.main_nav li.css_nav_item:hover h1, ul.main_nav li.js_nav_item:hover h1, body h1, #navbar h1, #nb20 h1, .sub_nav h1, .vital h1, .redesign .article.highlighted h1, .minPosterWithPlotSummaryHeight h1, #sidebar h1, div#content-2-wide h1, .even h1, .odd h1, #main_bottom h1, #footer h1, table.cast_list td.character div h1, .imdbRatingStyle1 h1, .recently-viewed .item h1, .heroic-overview .titleReviewBar .subText h1, .news_item small h1, ul.main_nav li.css_nav_item:hover h2, ul.main_nav li.js_nav_item:hover h2, body h2, #navbar h2, #nb20 h2, .sub_nav h2, .vital h2, .redesign .article.highlighted h2, .minPosterWithPlotSummaryHeight h2, #sidebar h2, div#content-2-wide h2, .even h2, .odd h2, #main_bottom h2, #footer h2, table.cast_list td.character div h2, .imdbRatingStyle1 h2, .recently-viewed .item h2, .heroic-overview .titleReviewBar .subText h2, .news_item small h2, ul.main_nav li.css_nav_item:hover h3, ul.main_nav li.js_nav_item:hover h3, body h3, #navbar h3, #nb20 h3, .sub_nav h3, .vital h3, .redesign .article.highlighted h3, .minPosterWithPlotSummaryHeight h3, #sidebar h3, div#content-2-wide h3, .even h3, .odd h3, #main_bottom h3, #footer h3, table.cast_list td.character div h3, .imdbRatingStyle1 h3, .recently-viewed .item h3, .heroic-overview .titleReviewBar .subText h3, .news_item small h3, ul.main_nav li.css_nav_item:hover h4, ul.main_nav li.js_nav_item:hover h4, body h4, #navbar h4, #nb20 h4, .sub_nav h4, .vital h4, .redesign .article.highlighted h4, .minPosterWithPlotSummaryHeight h4, #sidebar h4, div#content-2-wide h4, .even h4, .odd h4, #main_bottom h4, #footer h4, table.cast_list td.character div h4, .imdbRatingStyle1 h4, .recently-viewed .item h4, .heroic-overview .titleReviewBar .subText h4, .news_item small h4, ul.main_nav li.css_nav_item:hover h5, ul.main_nav li.js_nav_item:hover h5, body h5, #navbar h5, #nb20 h5, .sub_nav h5, .vital h5, .redesign .article.highlighted h5, .minPosterWithPlotSummaryHeight h5, #sidebar h5, div#content-2-wide h5, .even h5, .odd h5, #main_bottom h5, #footer h5, table.cast_list td.character div h5, .imdbRatingStyle1 h5, .recently-viewed .item h5, .heroic-overview .titleReviewBar .subText h5, .news_item small h5 {
+    color: #999 !important;
+}
+ul.main_nav li.css_nav_item:hover a:not(.btn), ul.main_nav li.js_nav_item:hover a:not(.btn), body a:not(.btn), #navbar a:not(.btn), #nb20 a:not(.btn), .sub_nav a:not(.btn), .vital a:not(.btn), .redesign .article.highlighted a:not(.btn), .minPosterWithPlotSummaryHeight a:not(.btn), #sidebar a:not(.btn), div#content-2-wide a:not(.btn), .even a:not(.btn), .odd a:not(.btn), #main_bottom a:not(.btn), #footer a:not(.btn), table.cast_list td.character div a:not(.btn), .imdbRatingStyle1 a:not(.btn), .recently-viewed .item a:not(.btn), .heroic-overview .titleReviewBar .subText a:not(.btn), .news_item small a:not(.btn) {
+    color: white !important;
+}
+* {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+#home_img, #home_img:hover {
+    background-image: url(https://hatscripts.com/i8/imdb.svgz);
+    background-position: 0 -24px;
+    height: 100%;
+}
+input, select, select option {
+    background-color: #1a1a1a !important;
+    color: #999 !important;
+}
+ul.main_nav li span.downArrow {
+    border-top-color: #999 !important;
+}
+.heroic-overview .title_block .title_bar_wrapper .ratings_wrapper .imdbRating {
+    background-image: url(https://hatscripts.com/i8/star-filled.svgz);
+    background-position: 0 0;
+    height: 32px;
+}
+.heroic-overview .title_block .title_bar_wrapper .ratings_wrapper .star-rating-widget .star-rating-button .star-rating-star {
+    background-image: url(https://hatscripts.com/i8/star.svgz);
+    background-position: 0 0;
+    height: 32px;
+}
+.spacer, .ghost, #content-2-wide:before {
+    visibility: hidden;
+}
+.score_unfavorable {
+    background: #bd4545;
+}
+.heroic-overview .popularityUpOrFlat {
+    color: #91cc00 !important;
+}
+.spoilers, .heroic-overview .popularityDown {
+    color: #bd4545 !important;
+}
+#amazon_logo, .titlePageSprite, .tinystarbar {
+    filter: invert(1) hue-rotate(180deg);
+}
+.btn {
+    background: #ffc107 !important;
+    color: #212121 !important;
+}
+.follow-facebook {
+    background: url(https://hatscripts.com/i8/facebook.svgz);
+}
+.follow-twitter {
+    background: url(https://hatscripts.com/i8/twitter.svgz);
+}
+.follow-instagram {
+    background: url(https://hatscripts.com/i8/instagram-old.svgz);
+}
+
+/* aside{
+    position: relative;
+    float: left;
+    width: 150px;
+    background-color: blanchedalmond;
+    height: 128.125rem;
+} */
+
+.detail_box{
+    max-width: 150px !important;
+}

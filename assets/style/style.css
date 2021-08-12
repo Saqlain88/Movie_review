@@ -1,0 +1,358 @@
+html {
+    background-color: black;
+}
+/* .page-head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+} */
+body {
+    font-family: "Comic Neue", cursive;
+    background: #0f0f0f;
+}
+h1 {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+/* a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+} */
+
+.sr-only{
+    background-color: yellow !important;
+}
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+.header_item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+.container:focus-within .header_item, .container:hover .header_item {
+    transform: translateX(-25%);
+}
+.header_item:focus ~ .header_item, .header_item:hover ~ .header_item {
+    transform: translateX(25%);
+}
+.container .header_item:focus, .container .header_item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.header_item img {
+    display: block;
+    max-width: 100%;
+}
+p {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+
+
+.movie-card {
+    padding: 10px;
+  }
+  .movie-description {
+    background: #000;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  .movie-title {
+    color: #faed27;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .movie-vote {
+    background: #faed30;
+    color: orange;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .movie-img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
+    max-height: 100% !important;
+  }
+  
+
+  #previous, #next{
+      background-color: yellow;
+      color: black;
+  }
+
+  ::-webkit-scrollbar{
+      width: 25px;
+  }
+
+  ::-webkit-scrollbar-track{
+      border:7px solid #232943;
+      box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb{
+      background: linear-gradient(45deg, #ffdd00, #fbb034);
+      border-radius: 3px;
+  }
+
+  .neon {
+    color: #faed27;
+    text-shadow:
+      0 0 5px #faed27,
+      0 0 10px #faed30,
+      0 0 20px #faed27,
+      0 0 40px #faed30,
+      0 0 80px #faed30,
+      0 0 90px #faed30,
+      0 0 100px #faed32,
+      0 0 150px #faed33;
+      font-size: 68px;
+      font-family: 'Tourney', cursive;
+  }
+
+  .mov_tag{
+      text-decoration: none;
+    font-family: 'Tourney', cursive;
+    color: #faed27;
+  }
+
+  .mov_list > h3{
+    font-family: 'Tourney', cursive;
+    color: #faed27;
+  }
+
+  .mov_srch_box >h3{
+    font-family: 'Tourney', cursive;
+    color: #faed27;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+  padding-right: 90px;
+}
+.single-cta i {
+  color: #FFFF00;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 80px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #FFFF00;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #FFFF00;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #FFFF00;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #FFFF00;
+    padding: 13px 20px;
+    border: 1px solid #FFFF00;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #000;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+#copyright-text{
+text-align: center !important;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #FFFF00;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #FFFF00;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+  /* ::-webkit-scrollbar
+  {
+      width: 0;
+  }
+
+  #scrollPath{
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 10px;
+     
+      background: rgba(255, 255, 255, 0.05);
+  }
+
+  #progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+   
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+  }
+
+  @keyframes animate {
+      0%, 100%{
+          filter: hue-rotate(0deg);
+      }
+      50%{
+          filter: hue-rotate(360deg);
+      }
+  }
+
+  #progressbar:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, #008aff, #00ffe7);
+      filter: blur(10px);
+  }
+
+  #progressbar:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+} */
